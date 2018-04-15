@@ -1,0 +1,29 @@
+{
+  "name": "minify-solidity",
+  "version": "1.0.0",
+  "description": "This is a simple node.js application to minify solidity code.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abidaks/minify-solidity.git"
+  },
+  "keywords": [
+    "solidity",
+    "node.js",
+    "minification",
+    "ethereum"
+  ],
+  "author": "Muhammad Abid <mohdabid.aks@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abidaks/minify-solidity/issues"
+  },
+  "homepage": "https://github.com/abidaks/minify-solidity#readme"
+}
