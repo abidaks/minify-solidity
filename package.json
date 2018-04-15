@@ -1,8 +1,8 @@
 {
   "name": "minify-solidity",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "This is a simple node.js application to minify solidity code.",
-  "main": "index.js",
+  "main": "./lib/minify-solidity",
   "directories": {
     "lib": "lib",
     "test": "tests"
@@ -20,6 +20,13 @@
     "minification",
     "ethereum"
   ],
+  "bin": {
+    "minify-solidity": "./bin/minify-solidity"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  },
   "author": "Muhammad Abid <mohdabid.aks@gmail.com>",
   "license": "MIT",
   "bugs": {
